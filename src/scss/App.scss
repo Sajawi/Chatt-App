@@ -1,0 +1,20 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './Chat.scss';
+@import './LoginRegister.scss';
+@import './MissingPage.scss';
+
+body,
+main,
+#root {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+}
+
+.spinner-border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

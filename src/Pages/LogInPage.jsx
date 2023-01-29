@@ -121,7 +121,8 @@ const LogInPage = ({ loggedIn }) => {
                           {loading ? (
                             <div className='spinner-border' role='status'></div>
                           ) : (
-                            <Button type='submit'>Login</Button>
+                              <Button style={{ margin: '6px',color:"white", background:"black" }}
+                                type='submit'>Log in</Button>
                           )}
                         </div>
                       </Col>
@@ -129,9 +130,13 @@ const LogInPage = ({ loggedIn }) => {
                   </form>
                   <Row>
                     <Col>
+                      
+                      <center><h4>Or</h4></center>
+
                       {!loading ? (
                         <Link to={'/register'}>
-                          <Button style={{ margin: '5px' }}>
+                          
+                          <Button style={{ margin: '6px' , color:"white", background:"black"}}>
                             Create new account
                           </Button>
                         </Link>

@@ -134,7 +134,8 @@ const RegisterPage = () => {
                       <Button
                         variant='primary'
                         type='submit'
-                        onClick={register}
+                          onClick={register}
+                          style={{ margin: '5px'  ,color:"white", background:"black"}}
                       >
                         Submit
                       </Button>
