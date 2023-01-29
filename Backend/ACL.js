@@ -1,4 +1,4 @@
-const aclRules = require('./ACL-rules.json');
+const aclRules = require('./acl-rules.json');
 
 module.exports = function (route, req) {
   let userRole = req.session.user ? req.session.user.role : 'visitor';
