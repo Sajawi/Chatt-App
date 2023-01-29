@@ -10,7 +10,7 @@ import CreateRoom from '../components/CreateRoom';
 import { BsFillChatDotsFill } from 'react-icons/bs';
 
 
-const ProfilePage = ({ setLoginParent, loggedIn }) => {
+const MyProfilePage = ({ setLoginParent, loggedIn }) => {
   const [user, setUser] = useState(null);
   const [activeList, setActiveList] = useState('rooms');
   const [createRoom, setCreateRoom] = useState(false);
@@ -307,4 +307,4 @@ const ProfilePage = ({ setLoginParent, loggedIn }) => {
     </div>
   );
 };
-export default ProfilePage;
+export default MyProfilePage;
