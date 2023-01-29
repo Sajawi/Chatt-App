@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Container, Row, Col, Alert, Button } from 'react-bootstrap';
-
+import '../scss/App.scss';
 
 const LogInPage = ({ loggedIn }) => {
   const [email, setEmail] = useState('');

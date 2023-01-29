@@ -8,7 +8,7 @@ import MessageBar from '../components/MessageBar';
 import RoomHeader from '../components/RoomHeader';
 import CreateRoom from '../components/CreateRoom';
 import { BsFillChatDotsFill } from 'react-icons/bs';
-
+import '../scss/App.scss';
 
 const MyProfilePage = ({ setLoginParent, loggedIn }) => {
   const [user, setUser] = useState(null);
